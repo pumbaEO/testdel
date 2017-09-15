@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69bcaef8-2805-45d7-bfdd-0a781b2c516a">
+  <producedTypes>
+    <objectType typeId="4c4e0d6b-b5e6-4971-80a1-dc323f460aa7" valueTypeId="28948d46-b67d-47ac-b38b-a764b5672991">
+    </objectType>
+    <refType typeId="388ae60e-643b-48d4-bb92-b3b5e6e96cf4" valueTypeId="420c4779-f560-4b19-be50-0434dc02ee98">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="6cd8f966-7a06-4e33-8e6a-d39e02ec708d" valueTypeId="0415f4c0-d965-40e6-afc7-74d417200fbe">
+    </selectionType>
+    <listType typeId="69a4cc7f-574a-4ede-aca9-a32a3a15866e" valueTypeId="61bda644-dcae-4300-8308-d08042aab478">
+    </listType>
+    <managerType typeId="6bf18988-fe0a-4ebc-9081-44fc8cc54898" valueTypeId="4b522fec-d7b2-4924-ad52-08063ac9018d">
+    </managerType>
+  </producedTypes>
+  <name>тестовый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовый</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.тестовый.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.тестовый.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5af61a7d-dceb-4469-9c77-cc551dde25af">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="af135c66-4db8-49e8-8304-acaf7db8fac2">
+    <name>Реквизит1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит1</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>
