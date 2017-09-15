@@ -36,6 +36,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.тестовый.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="5af61a7d-dceb-4469-9c77-cc551dde25af">
     <name>Реквизит</name>
     <synonym>
@@ -51,6 +52,20 @@
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <attributes uuid="af135c66-4db8-49e8-8304-acaf7db8fac2">
+    <name>Опиcание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опиcание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="7ce8e4e3-0d4b-44e1-9321-e74f0520a4b5">
     <name>Реквизит1</name>
     <synonym>
       <key>ru</key>
